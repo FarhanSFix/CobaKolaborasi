@@ -18,6 +18,12 @@ class _Profile2State extends State<Profile2> {
         children: [
           Text("Ini adalah Halaman Profile 2"),
           CircleAvatar(backgroundColor: Colors.blue),
+          //ini komentar
+          Container(
+            height: 100,
+            width: double.infinity,
+            decoration: BoxDecoration(color: Colors.blueAccent),
+          ),
         ],
       ),
     );
